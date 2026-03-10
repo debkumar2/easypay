@@ -21,9 +21,9 @@ const Banner = () => {
                 <div className="relative z-20 max-w-5xl text-center mx-auto">
                     <h1 className='text-7xl font-medium text-black tracking-tight leading-24'>Enhance your financial control
                         with <span className='bg-gradient-to-t from-[#7050f0] to-[#9680ef] inline py-1 px-3 text-white rounded-3xl'>Easypay</span></h1>
-                        <p className='text-base font-semibold text-zinc-500 max-w-3xl mx-auto py-6'>Streamline your business's financial management with our intuitive, scalable SaaS platform. Designed for U.S. enterprises, our solutions simplify complex processes.</p>
-                        <img src={assets.arrowOne} alt="" className='absolute left-[12%] bottom-2/5 animate-bounce delay-300'/>
-                        <img src={assets.arrowTwo} alt="" className='absolute right-[12%] bottom-2/5 animate-bounce delay-400'/>
+                    <p className='text-base font-semibold text-zinc-500 max-w-3xl mx-auto py-6'>Streamline your business's financial management with our intuitive, scalable SaaS platform. Designed for U.S. enterprises, our solutions simplify complex processes.</p>
+                    <img src={assets.arrowOne} alt="" className='absolute left-[12%] bottom-2/5 animate-bounce delay-300' />
+                    <img src={assets.arrowTwo} alt="" className='absolute right-[12%] bottom-2/5 animate-bounce delay-400' />
                 </div>
                 <div className='relative z-20 flex justify-center pt-8'>
                     <div className="">

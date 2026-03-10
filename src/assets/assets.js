@@ -10,6 +10,14 @@ import bannerBgThree from '../assets/images/bannerBgThree.avif';
 import bannerBgFour from '../assets/images/bannerBgFour.avif';
 import bannerBgFive from '../assets/images/bannerBgFive.avif';
 import smallBrandIcon from '../assets/images/smallBrandIcon.svg';
+import slideBrandOne from '../assets/images/trustBrandOne.svg';
+import slideBrandTwo from '../assets/images/trustBrandTwo.svg';
+import slideBrandThree from '../assets/images/trustBrandThree.svg';
+import slideBrandFour from '../assets/images/trustBrandFour.svg';
+import slideBrandFive from '../assets/images/trustBrandFive.svg';
+import slideBrandSix from '../assets/images/trustBrandSix.svg';
+import slideBrandSeven from '../assets/images/trustBrandSeven.svg';
+import slideBrandEight from '../assets/images/trustBrandEight.svg';
 
 const assets = {
     brandLogo,
@@ -28,6 +36,15 @@ export const bannnerBg = {
     bannerBgThree,
     bannerBgFour,
     bannerBgFive
-
 }
+export const trustSlides = [
+    slideBrandOne,
+    slideBrandTwo,
+    slideBrandThree,
+    slideBrandFour,
+    slideBrandFive,
+    slideBrandSix,
+    slideBrandSeven,
+    slideBrandEight,
+]
 export default assets;
