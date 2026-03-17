@@ -18,6 +18,14 @@ import slideBrandFive from '../assets/images/trustBrandFive.svg';
 import slideBrandSix from '../assets/images/trustBrandSix.svg';
 import slideBrandSeven from '../assets/images/trustBrandSeven.svg';
 import slideBrandEight from '../assets/images/trustBrandEight.svg';
+import { LuUserRoundPlus } from 'react-icons/lu';
+import { RiBankLine } from 'react-icons/ri';
+import { TbTopologyStar } from 'react-icons/tb';
+import workFlowImgOne from '../assets/images/workflowImageOne.avif';
+import workFlowImgTwo from '../assets/images/workflowImageTwo.avif';
+import workFlowImgThree from '../assets/images/workflowImageThree.webp';
+import workFlowImgFour from '../assets/images/workflowImageFour.avif';
+import { FaDatabase } from 'react-icons/fa';
 
 const assets = {
     brandLogo,
@@ -46,5 +54,31 @@ export const trustSlides = [
     slideBrandSix,
     slideBrandSeven,
     slideBrandEight,
+]
+export const cardWorkFlow = [
+    {
+        icon: LuUserRoundPlus,
+        title: 'Sign up and customize',
+        paragraph: "Create your account in minutes and tailor the platform to meet your company's unique financial needs.",
+        img: workFlowImgOne
+    },
+    {
+        icon: RiBankLine,
+        title: 'Link Your Accounts',
+        paragraph: "Easily link your bank accounts, credit cards, loans, and investment accounts.",
+        img: workFlowImgTwo
+    },
+    {
+        icon: TbTopologyStar,
+        title: 'Start Managing Efficiently',
+        paragraph: "Seamlessly connect your existing financial tools and import your data for a smooth transition.",
+        img: workFlowImgThree
+    },
+    {
+        icon: FaDatabase,
+        title: 'Integrate Your Data',
+        paragraph: "Seamlessly connect your existing financial tools and import your data for a smooth transition.",
+        img: workFlowImgFour
+    }
 ]
 export default assets;

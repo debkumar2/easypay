@@ -3,6 +3,7 @@ import Banner from './components/Banner'
 import LocomotiveScroll from 'locomotive-scroll';
 import TrustedBrands from './components/TrustedBrands';
 import Workflow from './components/Workflow';
+import KeyFeatures from './components/KeyFeatures';
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -11,6 +12,7 @@ const App = () => {
       <Banner />
       <TrustedBrands/>
       <Workflow/>
+      <KeyFeatures/>
     </div>
   )
 }
