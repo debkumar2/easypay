@@ -6,7 +6,7 @@ import assets, { cardWorkFlow } from '../assets/assets'
 const Workflow = () => {
     return (
         <div className='py-10'>
-            <SubHeading headingName='Our workflow' />
+            <SubHeading headingName='Our workflow' isCentered={true}/>
             <div className='text-center max-w-[820px] mx-auto py-4'>
                 <Heading normalText='How our platform makes your workflow ' highlightText='easier' />
             </div>
