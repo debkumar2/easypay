@@ -20,18 +20,21 @@ import slideBrandSeven from '../assets/images/trustBrandSeven.svg';
 import slideBrandEight from '../assets/images/trustBrandEight.svg';
 import { LuUserRoundPlus } from 'react-icons/lu';
 import { RiBankLine } from 'react-icons/ri';
-import { TbTopologyStar } from 'react-icons/tb';
+import { TbReportAnalytics, TbTopologyStar } from 'react-icons/tb';
 import workFlowImgOne from '../assets/images/workflowImageOne.avif';
 import workFlowImgTwo from '../assets/images/workflowImageTwo.avif';
 import workFlowImgThree from '../assets/images/workflowImageThree.webp';
 import workFlowImgFour from '../assets/images/workflowImageFour.avif';
+import bigFeaturePhone from '../assets/images/featureBigPhone.avif';
 import { FaDatabase } from 'react-icons/fa';
+import { BiSupport, BiTransfer } from 'react-icons/bi';
 
 const assets = {
     brandLogo,
     arrowOne,
     arrowTwo,
-    smallBrandIcon
+    smallBrandIcon,
+    bigFeaturePhone
 }
 export const bannerImages = {
     bannnerCentered,
@@ -79,6 +82,29 @@ export const cardWorkFlow = [
         title: 'Integrate Your Data',
         paragraph: "Seamlessly connect your existing financial tools and import your data for a smooth transition.",
         img: workFlowImgFour
+    }
+]
+
+export const keyFeatureList = [
+    {
+        icon: BiTransfer,
+        heading: 'Flexible Data Transfer',
+        subHeading: 'Easily import and export financial data to and from our platform'
+    },
+    {
+        icon: TbReportAnalytics,
+        heading: 'Personalized Reports',
+        subHeading: 'Create and customize reports tailored to your specific needs.'
+    },
+    {
+        icon: BiSupport,
+        heading: 'Dedicated Support',
+        subHeading: 'Our expert support team is available 24/7 to assist.'
+    },
+    {
+        icon: BiSupport,
+        heading: 'Custom Reporting Tools',
+        subHeading: 'Create and customize reports tailored to your specific needs.'
     }
 ]
 export default assets;
