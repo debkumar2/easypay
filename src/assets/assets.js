@@ -27,7 +27,7 @@ import workFlowImgThree from '../assets/images/workflowImageThree.webp';
 import workFlowImgFour from '../assets/images/workflowImageFour.avif';
 import bigFeaturePhone from '../assets/images/featureBigPhone.avif';
 import { FaDatabase } from 'react-icons/fa';
-import { BiSupport, BiTransfer } from 'react-icons/bi';
+import { BiSolidMessageSquareEdit, BiSupport, BiTransfer } from 'react-icons/bi';
 
 const assets = {
     brandLogo,
@@ -102,7 +102,7 @@ export const keyFeatureList = [
         subHeading: 'Our expert support team is available 24/7 to assist.'
     },
     {
-        icon: BiSupport,
+        icon: BiSolidMessageSquareEdit ,
         heading: 'Custom Reporting Tools',
         subHeading: 'Create and customize reports tailored to your specific needs.'
     }
