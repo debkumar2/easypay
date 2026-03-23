@@ -5,6 +5,7 @@ import TrustedBrands from './components/TrustedBrands';
 import Workflow from './components/Workflow';
 import KeyFeatures from './components/KeyFeatures';
 import OurWorkflow from './components/OurWorkflow';
+import Pricing from './components/Pricing';
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -15,6 +16,7 @@ const App = () => {
       <Workflow/>
       <KeyFeatures/>
       <OurWorkflow/>
+      <Pricing/>
     </div>
   )
 }

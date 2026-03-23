@@ -16,7 +16,7 @@ const OurWorkflow = () => {
                     <img src={assets.workflowAbsoluteOne} alt="" className='absolute -top-16 left-0 max-w-[193px] rounded-2xl shadow-[0px_8px_24px_rgba(149,157,165,0.2)]'/>
                     <img src={assets.workflowAbsoluteTwo} alt="" className='absolute top-2 -right-36 max-w-[273px] rounded-2xl shadow-[0px_8px_24px_rgba(149,157,165,0.2)]'/>
                     <img src={assets.workflowAbsoluteThree} alt="" className='absolute bottom-12 -left-36 max-w-[304px] rounded-2xl shadow-[0px_8px_24px_rgba(149,157,165,0.2)]'/>
-                    <img src={assets.workflowAbsoluteFour} alt="" className='absolute bottom-32 -right-18 max-w-[208px] rounded-2xl shadow-[0px_8px_24px_rgba(149,157,165,0.2)]'/>
+                    <img src={assets.workflowAbsoluteFour} alt="" className='absolute bottom-32 -right- max-w-[208px] rounded-2xl shadow-[0px_8px_24px_rgba(149,157,165,0.2)]'/>
                 </div>
             </div>
         </div>
