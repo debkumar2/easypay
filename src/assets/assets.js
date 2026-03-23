@@ -28,13 +28,24 @@ import workFlowImgFour from '../assets/images/workflowImageFour.avif';
 import bigFeaturePhone from '../assets/images/featureBigPhone.avif';
 import { FaDatabase } from 'react-icons/fa';
 import { BiSolidMessageSquareEdit, BiSupport, BiTransfer } from 'react-icons/bi';
+import workflowMain from '../assets/images/workflowMain.png';
+import workflowAbsoluteOne from '../assets/images/workflowAbsoluteOne.avif';
+import workflowAbsoluteTwo from '../assets/images/workflowAbsoluteTwo.avif';
+import workflowAbsoluteThree from '../assets/images/workflowAbsoluteThree.avif';
+import workflowAbsoluteFour from '../assets/images/workflowAbsoluteFour.avif';
 
 const assets = {
     brandLogo,
     arrowOne,
     arrowTwo,
     smallBrandIcon,
-    bigFeaturePhone
+    bigFeaturePhone,
+    workflowMain,
+    workflowAbsoluteOne,
+    workflowAbsoluteTwo,
+    workflowAbsoluteThree,
+    workflowAbsoluteFour
+
 }
 export const bannerImages = {
     bannnerCentered,
@@ -102,7 +113,7 @@ export const keyFeatureList = [
         subHeading: 'Our expert support team is available 24/7 to assist.'
     },
     {
-        icon: BiSolidMessageSquareEdit ,
+        icon: BiSolidMessageSquareEdit,
         heading: 'Custom Reporting Tools',
         subHeading: 'Create and customize reports tailored to your specific needs.'
     }
