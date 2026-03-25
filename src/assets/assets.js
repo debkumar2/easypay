@@ -33,6 +33,9 @@ import workflowAbsoluteOne from '../assets/images/workflowAbsoluteOne.avif';
 import workflowAbsoluteTwo from '../assets/images/workflowAbsoluteTwo.avif';
 import workflowAbsoluteThree from '../assets/images/workflowAbsoluteThree.avif';
 import workflowAbsoluteFour from '../assets/images/workflowAbsoluteFour.avif';
+import blogImgOne from './images/blogImg01.png';
+import blogImgTwo from './images/blogImg02.webp'
+import blogImgThree from './images/blogImg03.webp'
 
 const assets = {
     brandLogo,
@@ -69,6 +72,11 @@ export const trustSlides = [
     slideBrandSeven,
     slideBrandEight,
 ]
+export const blogContentImg = {
+    blogImgOne,
+    blogImgTwo,
+    blogImgThree
+}
 export const cardWorkFlow = [
     {
         icon: LuUserRoundPlus,

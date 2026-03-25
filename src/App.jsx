@@ -6,6 +6,7 @@ import Workflow from './components/Workflow';
 import KeyFeatures from './components/KeyFeatures';
 import OurWorkflow from './components/OurWorkflow';
 import Pricing from './components/Pricing';
+import Blog from './components/Blog';
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -17,6 +18,7 @@ const App = () => {
       <KeyFeatures/>
       <OurWorkflow/>
       <Pricing/>
+      <Blog/>
     </div>
   )
 }
