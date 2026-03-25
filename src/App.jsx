@@ -7,6 +7,7 @@ import KeyFeatures from './components/KeyFeatures';
 import OurWorkflow from './components/OurWorkflow';
 import Pricing from './components/Pricing';
 import Blog from './components/Blog';
+import Testimonial from './components/Testimonial';
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -18,6 +19,7 @@ const App = () => {
       <KeyFeatures/>
       <OurWorkflow/>
       <Pricing/>
+      <Testimonial/>
       <Blog/>
     </div>
   )
