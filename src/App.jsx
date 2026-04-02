@@ -8,6 +8,7 @@ import OurWorkflow from './components/OurWorkflow';
 import Pricing from './components/Pricing';
 import Blog from './components/Blog';
 import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -21,6 +22,7 @@ const App = () => {
       <Pricing/>
       <Testimonial/>
       <Blog/>
+      <Footer/>
     </div>
   )
 }

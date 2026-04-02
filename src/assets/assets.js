@@ -37,6 +37,11 @@ import blogImgOne from './images/blogImg01.png';
 import blogImgTwo from './images/blogImg02.webp'
 import blogImgThree from './images/blogImg03.webp'
 
+import reviewImgOne from './images/reviewImage01.jpg';
+import reviewImgTwo from './images/reviewImage02.jpg';
+import reviewImgThree from './images/reviewImage03.jpg';
+import reviewImgFour from './images/reviewImage04.jpg';
+
 const assets = {
     brandLogo,
     arrowOne,
@@ -77,6 +82,56 @@ export const blogContentImg = {
     blogImgTwo,
     blogImgThree
 }
+export const reviewContent = [
+    {
+        imgUrl: reviewImgOne,
+        name: 'Oliver Bennett',
+        review: "This platform has completely transformed how I manage my finances. The insights are clear, practical, and genuinely useful.",
+        dated: 'July 18, 2025'
+    },
+    {
+        imgUrl: reviewImgTwo,
+        name: 'George Whitaker',
+        review: "A very intuitive tool that makes tracking expenses and investments incredibly simple. I use it daily without any hassle.",
+        dated: 'June 30, 2025'
+    },
+    {
+        imgUrl: reviewImgTwo,
+        name: 'Harry Collins',
+        review: "Keeping track of multiple accounts used to be difficult, but this platform has streamlined everything brilliantly.",
+        dated: 'May 21, 2025'
+    },
+    {
+        imgUrl: reviewImgThree,
+        name: 'Jack Thompson',
+        review: "The dashboard provides a complete overview of my financial activities. It’s clean, fast, and very reliable.",
+        dated: 'April 9, 2025'
+    },
+    {
+        imgUrl: reviewImgFour,
+        name: 'Charlie Edwards',
+        review: "Budgeting has become far easier since I started using this tool. It’s helped me stay consistent with my savings goals.",
+        dated: 'March 27, 2025'
+    },
+    {
+        imgUrl: reviewImgTwo,
+        name: 'Thomas Fletcher',
+        review: "The automation features are excellent. I no longer worry about missing payments or manually tracking everything.",
+        dated: 'February 11, 2025'
+    },
+    {
+        imgUrl: reviewImgThree,
+        name: 'William Harris',
+        review: "A simple yet powerful solution for financial management. It helped me understand my spending habits clearly.",
+        dated: 'January 25, 2025'
+    },
+    {
+        imgUrl: reviewImgFour,
+        name: 'James Walker',
+        review: "Real-time updates make a big difference. I always know where I stand financially without any confusion.",
+        dated: 'December 14, 2024'
+    },
+]
 export const cardWorkFlow = [
     {
         icon: LuUserRoundPlus,
